@@ -2,7 +2,7 @@
 ## Requirements, Analysis, and Design
 
 Qualitaive requirements define systems from user's porint of view
-![[Pasted image 20220509015835.png]]
+![](./assests/Pasted_image_20220509015835.png)
 
 
 Roles represent the goal of a user at some point.
@@ -38,7 +38,7 @@ User storeies describe a feature from the user's point of view
     5. Time-bound helps with measuring the KPI. Some KPIs are more sensitive to time; for example, is “availability” per day, per month, or per year?
 
 ### SLO, SLI, SLA
-![[Pasted image 20220509022824.png]]
+![](./assests/Pasted_image_20220509022824.png)
  SLI must be time-bound and measureable
  SLO must be achievable and relevant
     고객이 만족하는한 최대한 낮게
