@@ -5,3 +5,11 @@
 
 # VScode
  option + 위아래 방향키 : 행을 통째로 이동
+
+debugger
+1. 계속/일시중지 : F5
+2. 단위실행 : F10
+3. 단계정보 : F11
+4. 단계출력 : Shift + F11
+5. 다시시작 : Ctrl + Shift + F5
+6. 중지 : Shift + F5
