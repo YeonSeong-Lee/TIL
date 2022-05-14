@@ -66,7 +66,7 @@ class PowerArray extends Array {
 }
 ```
 
-## 'instancdof'로 클래스 확인하기
+## 'instanceof'로 클래스 확인하기
  `instanceof ` 연산자는 객체가 특정 클래스에 속하는지 확인, 상속관계까지 확인함.
 
  
