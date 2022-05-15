@@ -5,6 +5,7 @@
 
 # VScode
  option + 위아래 방향키 : 행을 통째로 이동
+ cmd + shift + z : cmd + z 반대로
 
 debugger
 1. 계속/일시중지 : F5
