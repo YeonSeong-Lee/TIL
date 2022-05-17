@@ -4,4 +4,3 @@
 
 # 최근 커밋 수정
 ``` git commit --amend```
- 

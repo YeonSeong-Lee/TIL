@@ -14,3 +14,21 @@ debugger
 4. 단계출력 : Shift + F11
 5. 다시시작 : Ctrl + Shift + F5
 6. 중지 : Shift + F5
+
+# github 단축키
+``` / ``` : find mode, search창으로 바로 이동
+
+```T``` : Repositoriy에서 T를 누르면 파일단위로 탐색할 수 있음.
+
+```cmd + k``` :  command palette
+ - `>` : 액션(ex.clone)들을 실행시킬 수 있음.
+
+`?` : keyboard shortcuts
+
+## 코드 확인 할 때
+ `I` : 코멘트 토글, pull request에서 comment를 안 보이게 하기
+
+ `L` : 줄 이동
+
+ `B` : Git Blame
+
