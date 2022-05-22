@@ -37,6 +37,7 @@
  => NO. 컨테이너는 OS를 공유하기 때문에 장애 발생시 영향을 받을 수도 있다. 즉, VM이 더 안정적.
 
 ---
+### 보안 모듈
 
 #### SELinux
  - Security-Enhanced Linux
@@ -52,6 +53,8 @@
     파일 라벨에 적용
 
     경로 대신 아이노드 번호로 파일 시스템 객체들을 구별
+
+    CentOS에서 사용
 
 
 #### APPArmor
@@ -69,15 +72,53 @@
 
     파일 경로에 적용
 
+    Debian에서 사용
 
----
+    `enforce모드` : 허가되지 않는 파일에 접근하는 것을 거부
+    
+    `complain모드` : 실질적 보안 X, 의도된 행동이 아닌경우 로그만 남겨줌
 
+    `sudo aa-staus` 명령어를 통해 현재 상태 확인 가능
+
+#### Access Contorl, 접근 통제
+- MAC
+
+    Mandatory Access Control, 강제접근제어
+- DAC
+    
+    Discretionary Access Control, 임의접근제어
+    
+    [참고자료](https://www.lesstif.com/ws/access-control-dac-mac-43843837.html)
+
+---g
 
 ### 우분투 패키지 관리 툴
 
-- apt
+- APT : advanced packaging tool
 
-    <kbd>apt</kbd>
-    
+    <kbd>apt</kbd> 온라인 리포지포리에서 패키지 다운받고 설치, <kbd>dpkg, apt-get, apt-cache, apt</kbd>같은 구체적인 이름들이 존재
 
-  
+    ![differece_APT_APT-GET](https://media.geeksforgeeks.org/wp-content/uploads/20200707200921/apt1.png)
+- dpkg
+
+    <kbd>dpkg</kbd> cd room 이나 다른 디스크 장치에 있는 .deb파일 제어하는 경우 사용
+
+    시스템 소프트웨어에 대한 설정이나 설치 및 정보를 얻는 명령어 옵션 제공
+
+    <kbd>apt</kbd>보다 낮은 수준에서 작업 수행
+
+- aptitude
+
+    주요 패키지 작업을 자동화하여 가능한 쉡게 작업할 수 있게 해줌
+
+
+---
+
+![Debian vs CentOS](https://cdn.educba.com/academy/wp-content/uploads/2018/09/CentOS-vs-Debian-1.jpg)
+
+
+
+
+## 참고
+
+https://parkseunghan.notion.site/Born2beroot-Subject-6d594d567ed843ba82d7369b0149efe5
