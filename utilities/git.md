@@ -11,7 +11,7 @@
 `<kbd> keyboard </kbd>`
 
 <kbd> keyboard </kbd>
-kbd 태그를 쓰면 옆과 같이 표현 가능
+kbd 태그를 쓰면 옆 과 같이 표현 가능
 
 # reset vs revert
 

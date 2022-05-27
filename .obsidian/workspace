@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "1e8a6cfce20cc991",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f84cf3be7113339",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "utilities/cooperation.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d6b92b283e903b9f",
+    "type": "split",
+    "children": [
+      {
+        "id": "65f3f340880b48d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bffb34097827be39",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b428938598dd98c1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d28fa1f2416ea241",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe5755e783e37443",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76bfeeab61bae23a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "utilities/cooperation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6f84cf3be7113339",
+  "lastOpenFiles": [
+    "utilities/cooperation.md",
+    "utilities/git.md",
+    "frontend/javascript.md",
+    "frontend/react.md",
+    "aws/aws_security.md",
+    "aws/aws-security-incident-response-guide copy.pdf"
+  ]
+}
