@@ -1,0 +1,1 @@
+- [운영체제 아주 쉬운 세 가지 이야기](https://techiefood4u.files.wordpress.com/2020/02/operating_systems_three_easy_pieces.pdf)
