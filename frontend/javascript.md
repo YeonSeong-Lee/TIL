@@ -83,3 +83,9 @@ alert([...range]); // Symbol.iterator가 없기 때문에 에러 발생
 ## 커링(Curring)
 
 [커링](https://ko.javascript.info/currying-partials): 함수를 받아서 함수를 반환하는 함수
+
+## 함수들
+
+### 형변환
+
+- [Number.isNaN()](<Number.isNaN()>)
