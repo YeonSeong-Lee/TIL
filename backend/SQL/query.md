@@ -6,6 +6,16 @@
 
 where는 쿼리 실행에 앞서 살펴봄. 쿼리가 **처리할** 행을 결정
 
+## 조건
+
+[정규표현식 조건](https://steemit.com/mysql/@seobangnim/mysql-regexp)도 가능함.
+
+```SQL
+SELECT *
+FROM tablename
+WHERE col REGEXP 'test|example|hello'
+```
+
 # HAVING
 
 having은 쿼리 실행 후 살펴봄. 모든 행을 처리한 **다음에** 클라이언트에 반환활 행 결정
