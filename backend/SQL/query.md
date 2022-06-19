@@ -2,6 +2,34 @@
 
 [What is the Difference Between COUNT(\*), COUNT(1), COUNT(column name), and COUNT(DISTINCT column name)?](https://learnsql.com/blog/difference-between-count-distinct/)
 
+## CONCAT
+
+문자열 결합
+
+### GROUP BY 문자열 결합
+
+GROUP_CONCAT()
+
+```SQL
+SELECT GROUP_CONCAT(col) FROM tablename;
+```
+
+```SQL
+SELECT GROUP_CONCAT(col) FROM tablename;
+```
+
+```SQL
+SELECT GROUP_CONCAT(col SEPARATOR '|') FROM tablename;
+```
+
+```SQL
+SELECT GROUP_CONCAT(col order by condition) FROM tablename;
+```
+
+```SQL
+SELECT GROUP_CONCAT(DISTINCT col) FROM tablename;
+```
+
 # WHERE
 
 where는 쿼리 실행에 앞서 살펴봄. 쿼리가 **처리할** 행을 결정
