@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Say hello world 1
-        shell:
+        shell: bash
         env:
           STEP_LEVEL_1: "THIS VALUE COMES FROM STEP_LEVEL_1"
         run: |
