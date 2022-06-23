@@ -1,31 +1,27 @@
 name: "git action"
 
-on: push
-
-env:
-  WORKFLOW_LEVEL: "THIS VALUE COMES FROM THE WORKFLOW LEVEL"
+on: ["push", "pull_request"]
 
 jobs:
   first-job:
     name: "first job"
 
-    runs-on: ubuntu-latest
-
-    env:
-      JOB_LEVEL_1: "THIS COMES FROM JOB LEVEL 1"
+    runs-on: window-latest
 
     steps:
       - name: Say hello world 1
         shell: bash
-        env:
-          STEP_LEVEL_1: "THIS VALUE COMES FROM STEP_LEVEL_1"
         run: |
           echo "hello world from step 1"
-          echo $WORKFLOW_LEVEL
-          echo "STEP_VALUE_1='This is set by step1'" >> $GITHUB_ENV
 
-      - name: Say hello world 2
-        shell: pwsh
+  second-jobs:
+    name: "second job"
+    if: github.event_name == 'pull_request'
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: pull request
+        shell: bash
         run: |
-          echo "hellp world from step 2"
-          echo $env:STEP_VALUE_1
+          echo "PULL REQUEST is coming"
