@@ -1,0 +1,31 @@
+name: "git action"
+
+on: push
+
+env:
+  WORKFLOW_LEVEL: "THIS VALUE COMES FROM THE WORKFLOW LEVEL"
+
+jobs:
+  first-job:
+    name: "first job"
+
+    runs-on: ubuntu-latest
+
+    env:
+      JOB_LEVEL_1: "THIS COMES FROM JOB LEVEL 1"
+
+    steps:
+      - name: Say hello world 1
+        shell:
+        env:
+          STEP_LEVEL_1: "THIS VALUE COMES FROM STEP_LEVEL_1"
+        run: |
+          echo "hello world from step 1"
+          echo $WORK_FLOW_LEVEL
+          echo "STEP_VALUE_1='This is set by step1'" >> $GITHUB_ENV
+
+      - name: Say hello world 2
+        shell: pwsh
+        run: |
+          echo "hellp world from step 2"
+          echo $env:STEP_VALUE_1 // 파워셀에서는 환경변수를 가지고 오는 방법이 조금 다름
