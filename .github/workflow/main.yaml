@@ -28,4 +28,4 @@ jobs:
         shell: pwsh
         run: |
           echo "hellp world from step 2"
-          echo $env:STEP_VALUE_1 // 파워셀에서는 환경변수를 가지고 오는 방법이 조금 다름
+          echo $env:STEP_VALUE_1
