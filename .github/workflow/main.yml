@@ -21,7 +21,7 @@ jobs:
           STEP_LEVEL_1: "THIS VALUE COMES FROM STEP_LEVEL_1"
         run: |
           echo "hello world from step 1"
-          echo $WORK_FLOW_LEVEL
+          echo $WORKFLOW_LEVEL
           echo "STEP_VALUE_1='This is set by step1'" >> $GITHUB_ENV
 
       - name: Say hello world 2
