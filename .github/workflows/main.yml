@@ -1,25 +1,25 @@
-name: "git action"
+# name: "git action"
 
-on: ["push", "pull_request"]
+# on: ["push", "pull_request"]
 
-jobs:
-  first-job:
-    name: "first job"
+# jobs:
+#   first-job:
+#     name: "first job"
 
-    runs-on: window-latest
+#     runs-on: window-latest
 
-    steps:
-      - name: Say hello world 1
-        shell: bash
-        run: echo "hello world from step 1"
+#     steps:
+#       - name: Say hello world 1
+#         shell: bash
+#         run: echo "hello world from step 1"
 
-  second-jobs:
-    name: "second job"
-    if: github.event_name == 'pull_request'
+#   second-jobs:
+#     name: "second job"
+#     if: github.event_name == 'pull_request'
 
-    runs-on: ubuntu-latest
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: pull request
-        shell: bash
-        run: echo "PULL REQUEST is coming"
+#     steps:
+#       - name: pull request
+#         shell: bash
+#         run: echo "PULL REQUEST is coming"
