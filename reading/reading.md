@@ -1,0 +1,1 @@
+- [머신러닝 어플리케이션을 위한 데이터 저장소 기술](https://hyperconnect.github.io/2022/07/11/data-stores-for-ml-apps.html)
