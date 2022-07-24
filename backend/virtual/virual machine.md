@@ -1,5 +1,5 @@
-#CS/VM
-#CS/container
+#VM
+#container
 # 가상 머신과 도커 컨테이너
 
 ![](2022-05-19-16-31-00.png)
