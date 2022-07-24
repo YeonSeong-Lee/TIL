@@ -1,3 +1,4 @@
+#utils/shortcut
 # MAC
  - option + 좌우 방향키 : 단어 단위 이동
  - command + option + w : 현재 탭 제외 모든 탭 삭제

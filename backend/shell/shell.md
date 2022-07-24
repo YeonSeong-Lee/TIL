@@ -1,3 +1,4 @@
+#CS #linux #환경변수
 ## 환경변수
 
 [리눅스 환경변수](https://en.wikipedia.org/wiki/C_shell)

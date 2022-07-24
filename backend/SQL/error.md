@@ -1,3 +1,4 @@
+#SQL #DB
 ### MySQL
 
 - [MySQL Error 1093 - Can't specify target table for update in FROM clause](https://stackoverflow.com/questions/45494/mysql-error-1093-cant-specify-target-table-for-update-in-from-clause)
