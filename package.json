@@ -1,0 +1,35 @@
+{
+  "name": "foam-eleventy-template",
+  "version": "1.0.0",
+  "description": "template to create a foam workspace with eleventy",
+  "scripts": {
+    "start": "eleventy --serve --watch",
+    "clean": "rm -rf ./_site",
+    "build": "npm run clean && eleventy",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanfrank77/foam-eleventy-template.git"
+  },
+  "author": "Juan F Gonzalez <juano_gonza@hotmail.com>",
+  "contributors": [
+    {
+      "name": "Omar López",
+      "email": "zomars@me.com",
+      "url": "https://zoma.rs"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanfrank77/foam-eleventy-template/issues"
+  },
+  "homepage": "https://github.com/juanfrank77/foam-eleventy-template#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "clean-css": "4.2.3",
+    "markdown-it": "11.0.0",
+    "markdown-it-replace-link": "1.1.0",
+    "node-sass-promise": "1.0.0"
+  }
+}

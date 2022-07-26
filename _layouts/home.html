@@ -1,7 +1,3 @@
----
-layout: default
----
-
 {{ content }}
 
 <script type="text/javascript">
@@ -9,10 +5,4 @@ layout: default
   document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
     a.innerText = a.title;
   });
-  // Hack: Remove .md extension from wikilinks to get the html in jekyll
-  document.querySelectorAll("a").forEach(l => {
-    if (l.href.endsWith('.md')) {
-      l.href = l.href.substring(0, l.href.length-3)
-    }
-  })
 </script>

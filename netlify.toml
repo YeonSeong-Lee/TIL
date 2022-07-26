@@ -1,0 +1,10 @@
+[build]
+  publish = "_site"
+  command = "npx eleventy"
+
+[[redirects]]
+  from = "/404/bubbles/*"
+  to = "/bubbles/:splat"
+  status = 301
+  force = true
+
