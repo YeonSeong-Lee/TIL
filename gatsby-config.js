@@ -3,15 +3,12 @@ module.exports = {
     {
       resolve: `gatsby-theme-garden`,
       options: {
-        contentPath: `${__dirname}/bubbles`,
-        rootNote: `/`,
+        contentPath: `${__dirname}/contents`,
+        rootNote: `/hello`,
       },
     },
   ],
   siteMetadata: {
     title: `yeonseong second brain`,
   },
-}# Page not found
-
-The page you tried to access doesn't exist! Try going back to the [[inbox]]
-
+}
